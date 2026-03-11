@@ -88,7 +88,7 @@ elif status == 'b':
     result, list_set = _permutation(original_set)
 else:
     print('Opcion invalida')
-
+print('Resultado:', result)
 fecha_hora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 to_save(fecha_hora, operation_name, original_set, result, list_set)
 
